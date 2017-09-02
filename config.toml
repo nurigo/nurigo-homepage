@@ -1,0 +1,319 @@
+# Page settings
+baseurl = "/"
+title = "Elate theme"
+languageCode = "en-us"
+theme = "hugo-elate-theme"
+
+[params]
+  
+  custom_css = ["css/custom1.css", "css/custom2.css"]
+
+  # Meta
+  author = ""
+  description = ""
+  email = ""
+  # Navigation
+  [params.navigation]
+    brand = "NURIGO"
+    home = "HOME"
+    work = "Service"
+    testimonials = "Testimonials"
+    services = "NURIGO LIFE"
+    about = "ABOUT US"
+    contact = "CONTACT US"
+
+    # You can add custom links before or after the default links
+    # Assign a weight to define the order
+    
+    # prepended links
+    #[[menu.prepend]]
+    #  url = "http://gohugo.io"
+    #  name = "Hugo"
+    #  weight = 10
+
+    # postpended links
+    #[[menu.postpend]]
+    #  url = "http://gohugo.io"
+    #  name = "External link"
+    #  weight = 10
+  
+  # Hero section
+  [params.hero]
+    title = "메시지 플랫폼 서비스"
+    subtitle = '세상에서 가장 쉽게 메시지를 발송할 수 있도록 도와드립니다'
+ 
+  # Intro section
+  # Available icons: http://simplelineicons.com/
+  [params.intro]
+
+  [[params.intro.item]]
+    title = "쉬운 발송"
+    description = "쿨에스엠에스 플랫폼을 기반으로 하는 150 여개의 응용프로그램 및 서비스 중에서 나에게 맞는 솔루션을 찾아보세요."
+    url = "https://www.coolsms.co.kr/app_list"
+    button = "Find Apps"
+    icon = "icon-bulb"
+    img = "img_7.jpg"
+
+  [[params.intro.item]]
+    title = "쉬운 개발"
+    description = "쿨에스엠에스는 REST API와 오픈된 SDK를 이용하여 폭 넓은 언어와 플랫폼 환경을 쉽고 빠르게 지원합니다."
+    url = "https://www.coolsms.co.kr/developer"
+    button = "Click Me"
+    icon = "icon-wrench"
+    img = "img_8.jpg"
+
+  [[params.intro.item]]
+    title = "수익 공유"
+    description = "문자 발송 시 내 앱에 등록된 앱 아이디를 통하여 최소 건당 2원씩 수익이 공유되며 누적된 수익은 언제든 정산 요청을 할 수 있습니다."
+    url = "https://www.coolsms.co.kr/app_intro"
+    button = "Check It"
+    icon = "icon-rocket"
+    img = "img_10.jpg"
+
+  [params.intro.video]
+    enable = true
+    title = "Watch the video"
+    icon = "icon-play2"
+#    url = "https://vimeo.com/80611529" # old
+    url = "https://vimeo.com/232157734" # new
+
+
+  # Work section
+  [params.work]
+    enable = false
+    title = "Work"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+
+    [[params.work.row]]
+      img = "work_1.jpg"
+      alt = "Image2"
+      title = "Project 1"
+      subtitle = "Branding"
+
+    [[params.work.row]]
+      img = "work_2.jpg"
+      alt = "Image2"
+      title = "Project 2"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_3.jpg"
+      alt = "Image3"
+      title = "Project 3"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_4.jpg"
+      alt = "Image4"
+      title = "Project 4"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_5.jpg"
+      alt = "Image5"
+      title = "Project 5"
+      subtitle = "Design"
+
+    [[params.work.row]]
+      img = "work_6.jpg"
+      alt = "Image6"
+      title = "Project 6"
+      subtitle = "Design"
+
+ # Testimonials section
+  [params.testimonials]
+    enable = false
+    title = "Testimonials"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person1.jpg"
+      alt = "Person1"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person2.jpg"
+      alt = "Person2"
+
+    [[params.testimonials.item]]
+      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
+      img = "person3.jpg"
+      alt = "Person3"
+    
+
+
+
+  # Services section
+  [params.services]
+    enable = true
+    title = "NURIGO LIFE"
+    description = "개발자가 행복한 기업"
+
+    [[params.services.item]]
+      title = "수평적 리더쉽"
+      description = "회사 내에서 영어닉으로 호칭. 자율성을 갖고 업무를 스스로 계획하고 실천하는 상향식 업무프로세스. 분기별 동료평가에 기반한 성과평가를 실시하고 1년에 두 번의 연봉협상 실시. 10배의 성과자에게 10배의 연봉 지급을 원칙으로하는 공정한 분배시스템"
+      icon = "icon-anchor"
+
+    [[params.services.item]]
+      title = "능동적 & 능률적 업무문화"
+      description = "근무시간 자율화로 개인의 능력에 맞게 스스로 스케쥴 관리(출퇴근 시간 자율) 부분적 재택근무 허용. 매일 스탠딩 회의로 방향을 점검하는 칸반 기반의 업무프로세스.  효율적인 코드 관리를 위해 github 및 bitbucket 기반의 이슈 및 코드관리 일일 코드리뷰, 일일 PR, Code Inspection, Test Driven Development 사용하는 등. Jenkins, Travis-CI 등 툴 사용으로 효율성 극대화"
+      icon = "icon-layers2"
+    [[params.services.item]]
+      title = "복지"
+      description = "휴가자율제 - 2017년부터 휴가 자율제 도입으로 언제든 필요할 때 유급휴가 사용. 장기 휴가시 3개월까지 무급휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>교육비 지원 - 업무와 관련된 교육비 지원<br>무한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
+      icon = "icon-video2"
+
+      [[params.services.item]]
+      title = "채용"
+      description = "AWS Service 를 기반으로 한 NodeJS 개발 가능자 항시 채용중. 인재 추천 후 채용시 200만원 지급."      
+      icon = "icon-monitor"
+
+  # About section
+  [params.about]
+    enable = true
+    title = "ABOUT US"
+    description = "쿨에스엠에스를 세상에서 가장 쉬운 메시지 플랫폼 서비스로<br>만들어 가고 있는 사람들 입니다."
+
+    [[params.about.item]]
+      name = "Ashley Yang"
+      position = "APAC Service Manager"
+      description = "대만 출신으로 중국어를 구사하고 아시아 태평양 지역의 서비스 론칭을 돕고 있습니다.<br><br>"
+      img = "person3.jpg"
+      alt = "Person3"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]      
+
+
+    [[params.about.item]]
+      name = "Billy Kang"
+      position = "Security Manager"
+      description = "어릴 때부터 필리핀에서 거주하였고 영어를 자유롭게 구사할 있습니다. 쿨에스엠에스의 로그인 인증 등 보안부분을 책임지고 있습니다."
+      img = "billy.jpg"
+      alt = "Billy Kang"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-linkedin", "#"]
+#      ]
+
+    [[params.about.item]]
+      name = "Eden Cha"
+      position = "Customer Service Manager"
+      description = "고객관리 부분을 책임지고 있습니다.<br><br><br><br>"
+      img = "eden.jpg"
+      alt = "Eden Cha"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-github", "#"]
+#      ]
+
+    [[params.about.item]]
+      name = "Hosy Lee"
+      position = "Third Party Support Manager"
+      description = "외부 개발자의 편익을 위해 노력하고 있습니다."
+      img = "hosy.jpg"
+      alt = "Hosy Lee"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]      
+
+    [[params.about.item]]
+      name = "Wiley Choi"
+      position = "Founder & CEO"
+      description = "메시지 발송 부분을 책임지고 있습니다."
+      img = "wiley.jpg"
+      alt = "Wiley Choi"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]      
+#
+    [[params.about.item]]
+      name = "Youngjae Kim"
+      position = "Microservice Specialist"
+      description = "메시지 발송 부분을 지원하고 있습니다."
+      img = "person3.jpg"
+      alt = "Person3"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]      
+
+
+
+  # Counters section
+  [params.counters]
+    enable = false
+    title = "Stats"
+    background = "full_image_1.jpg"
+
+    [[params.counters.item]]
+      description = "Finished projects"
+      icon = "icon-briefcase"
+      from = 0
+      to = 89
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Lines of code"
+      icon = "icon-code"
+      from = 0
+      to = 2343409
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Cups of coffee"
+      icon = "icon-cup"
+      from = 0
+      to = 1302
+      interval = 50
+      speed = 5000
+
+    [[params.counters.item]]
+      description = "Happy clients"
+      icon = "icon-people"
+      from = 0
+      to = 52
+      interval = 50
+      speed = 5000
+
+  # Contact section
+  [params.contact]
+    enable = false
+    map = true
+    title = "Get in touch"
+    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    
+    # Available icons: http://simplelineicons.com/
+    details = [
+        ["icon-home", "서울특별시 금천구 두산로 70 현대지식산업센터 A동 1811호"],
+#        ["icon-phone", "(123) 465-6789"],
+        ["icon-envelope", "contact@nurigo.net"],
+        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+      ]
+
+    name = "Name"
+    email = "Email"
+    phone = "Phone"
+    message = "Message"
+    button = "Send message"
+
+  # Footer section
+  [params.footer]
+    enable = true
+    copyright = '<br>&copy; NURIGO All Rights Reserved.'
