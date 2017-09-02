@@ -51,7 +51,7 @@ theme = "hugo-elate-theme"
     description = "쿨에스엠에스 플랫폼을 기반으로 하는 150 여개의 응용프로그램 및 서비스 중에서 나에게 맞는 솔루션을 찾아보세요."
     url = "https://www.coolsms.co.kr/app_list"
     button = "Find Apps"
-    icon = "icon-bulb"
+    icon = "icon-rocket"
     img = "img_7.jpg"
 
   [[params.intro.item]]
@@ -67,7 +67,7 @@ theme = "hugo-elate-theme"
     description = "문자 발송 시 내 앱에 등록된 앱 아이디를 통하여 최소 건당 2원씩 수익이 공유되며 누적된 수익은 언제든 정산 요청을 할 수 있습니다."
     url = "https://www.coolsms.co.kr/app_intro"
     button = "Check It"
-    icon = "icon-rocket"
+    icon = "icon-dollar"
     img = "img_10.jpg"
 
   [params.intro.video]
@@ -166,12 +166,12 @@ theme = "hugo-elate-theme"
     [[params.services.item]]
       title = "복지"
       description = "휴가자율제 - 2017년부터 휴가 자율제 도입으로 언제든 필요할 때 유급휴가 사용. 장기 휴가시 3개월까지 무급휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>교육비 지원 - 업무와 관련된 교육비 지원<br>무한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
-      icon = "icon-video2"
+      icon = "icon-shield"
 
       [[params.services.item]]
       title = "채용"
       description = "AWS Service 를 기반으로 한 NodeJS 개발 가능자 항시 채용중. 인재 추천 후 채용시 200만원 지급."      
-      icon = "icon-monitor"
+      icon = "icon-user"
 
   # About section
   [params.about]
