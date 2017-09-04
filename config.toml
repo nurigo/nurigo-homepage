@@ -16,11 +16,12 @@ theme = "hugo-elate-theme"
   [params.navigation]
     brand = "NURIGO"
     home = "HOME"
-    work = "Service"
     testimonials = "Testimonials"
     services = "NURIGO LIFE"
     about = "ABOUT US"
+    work = "IP"
     contact = "CONTACT US"
+    roadmap = "LOADMAP"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -80,46 +81,34 @@ theme = "hugo-elate-theme"
 
   # Work section
   [params.work]
-    enable = false
-    title = "Work"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    enable = true
+    title = "Intellectual Property"
+    description = "누리고의 지적재산권 목록입니다."
+    footertext = ''
 
     [[params.work.row]]
-      img = "work_1.jpg"
-      alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      img = "trademark-coolsms.jpg"
+      alt = "서비스등록표"
+      title = "서비스등록표"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_2.jpg"
-      alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      img = "patent-push.jpg"
+      alt = "특허 10-1597977"
+      title = "특허 10-1597977"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_3.jpg"
-      alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      img = "patent-ars.jpg"
+      alt = "특허 10-1701116"
+      title = "특허 10-1701116"
+      subtitle = ""
 
     [[params.work.row]]
-      img = "work_4.jpg"
-      alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_5.jpg"
-      alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
-
-    [[params.work.row]]
-      img = "work_6.jpg"
-      alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      img = "patent-mo.jpg"
+      alt = "특허 10-1648031"
+      title = "특허 10-1648031"
+      subtitle = ""
 
  # Testimonials section
   [params.testimonials]
@@ -173,6 +162,25 @@ theme = "hugo-elate-theme"
       description = "AWS Service 를 기반으로 한 NodeJS 개발 가능자 항시 채용중. 인재 추천 후 채용시 200만원 지급."      
       icon = "icon-user"
 
+  # Loadmap section
+  [params.roadmap]
+    enable = true
+    title = "ROADMAP"
+    description = "효율적인 개발 환경을 위해<br>개발자가 일하기 좋은 환경으로 점진적 업그레이드"
+
+    [[params.roadmap.item]]
+      title = "업무환경"
+      description = "2016 .. 출퇴근시간 자율제 시행<br> 2018 .. 호텔 요리사 채용(호텔식 요리 제공)<br>2019 .. 스톡옵션 제공<br>2020 .. 누리고 어린이집 오픈"
+
+    [[params.roadmap.item]]
+      title = "최저연봉"
+      description = "2016 .. 2,600만원<br>2017 .. 4,200만원<br>2018 ..  5,800만원<br>2019 .. 6,400만원<br>2022 .. 실리콘밸리 수준의 연봉"
+
+    [[params.roadmap.item]]
+      title = "글로벌 계획"
+      description = "2016 .. 대만(Taiwan) 서비스 런칭<br>2017 .. 대만을 비롯한 중국어권 서비스 본격화<br>2018 .. 영어권 국가로 확대<br>2019 .. 모든 서비스 및 제품을 글로벌을 목표로 제작"
+
+
   # About section
   [params.about]
     enable = true
@@ -183,8 +191,8 @@ theme = "hugo-elate-theme"
       name = "Ashley Yang"
       position = "APAC Service Manager"
       description = "대만 출신으로 중국어를 구사하고 아시아 태평양 지역의 서비스 론칭을 돕고 있습니다.<br><br>"
-      img = "person3.jpg"
-      alt = "Person3"
+      img = "ashley.jpg"
+      alt = "Ashley Yang"
 #      social = [
 #        ["icon-twitter", "#"],
 #        ["icon-facebook", "#"],

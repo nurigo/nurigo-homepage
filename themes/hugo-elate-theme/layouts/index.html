@@ -14,10 +14,6 @@
 		
         {{ partial "intro.html" .}}
 
-		{{ if .Site.Params.work.enable }}
-       		{{ partial "work.html" .}}
-       	{{ end }}
-
 		{{ if .Site.Params.testimonials.enable }}
         	{{ partial "testimonials.html" .}}
 		{{ end }}
@@ -30,9 +26,17 @@
         	{{ partial "about.html" .}}
 		{{ end }}
 
-		{{ if .Site.Params.counters.enable }}
-        	{{ partial "counters.html" .}}
-        {{ end }}
+		{{ if .Site.Params.work.enable }}
+       		{{ partial "work.html" .}}
+       	{{ end }}
+
+    {{ if .Site.Params.roadmap.enable }}
+      {{ partial "roadmap.html" .}}
+    {{ end }}
+
+    {{ if .Site.Params.counters.enable }}
+      {{ partial "counters.html" .}}
+    {{ end }}
 
 		{{ if .Site.Params.contact.enable }}
         	{{ partial "contact.html" .}}
