@@ -21,7 +21,7 @@ theme = "hugo-elate-theme"
     about = "ABOUT US"
     work = "IP"
     contact = "CONTACT US"
-    roadmap = "LOADMAP"
+    roadmap = "ROADMAP"
 
     # You can add custom links before or after the default links
     # Assign a weight to define the order
@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "수익 공유"
-    description = "문자 발송 시 내 앱에 등록된 앱 아이디를 통하여 최소 건당 2원씩 수익이 공유되며 누적된 수익은 언제든 정산 요청을 할 수 있습니다."
+    description = "앱에 등록된 앱 아이디를 통하여 최소 건당 2원씩 수익이 공유되며 누적된 수익은 언제든 정산 요청을 할 수 있습니다."
     url = "https://www.coolsms.co.kr/app_intro"
     button = "Check It"
     icon = "icon-dollar"
@@ -83,7 +83,7 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Intellectual Property"
-    description = "누리고의 지적재산권 목록입니다."
+    description = "그동안 누리고가 노력해 온 것을 보여주는 공식 인증서들입니다"
     footertext = ''
 
     [[params.work.row]]
@@ -190,7 +190,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Ashley Yang"
       position = "APAC Service Manager"
-      description = "대만 출신으로 중국어를 구사하고 아시아 태평양 지역의 서비스 론칭을 돕고 있습니다.<br><br>"
+      description = "대만 출신으로 중국어를 구사할 수 있고 중국어권 지역의 서비스 론칭 및 운영을 지원하고 있습니다."
       img = "ashley.jpg"
       alt = "Ashley Yang"
 #      social = [
@@ -203,7 +203,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Billy Kang"
       position = "Security Manager"
-      description = "어릴 때부터 필리핀에서 거주하였고 영어를 자유롭게 구사할 있습니다. 쿨에스엠에스의 로그인 인증 등 보안부분을 책임지고 있습니다."
+      description = '"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."'
       img = "billy.jpg"
       alt = "Billy Kang"
 #      social = [
@@ -215,7 +215,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Eden Cha"
       position = "Customer Service Manager"
-      description = "고객관리 부분을 책임지고 있습니다.<br><br><br><br>"
+      description = '"Brainy is the new sexy"'
       img = "eden.jpg"
       alt = "Eden Cha"
 #      social = [
@@ -225,21 +225,34 @@ theme = "hugo-elate-theme"
 #      ]
 
     [[params.about.item]]
-      name = "Hosy Lee"
-      position = "Third Party Support Manager"
-      description = "외부 개발자의 편익을 위해 노력하고 있습니다."
-      img = "hosy.jpg"
-      alt = "Hosy Lee"
+      name = "Genie Kim"
+      position = "Messaging Team Developer"
+      description = '"이름처럼 되려고 노력하고 있습니다. Wiley와 함께 메세지 발송 부분을 지원하고 있습니다."'
+      img = "genie.jpg"
+      alt = "Genie Kim"
 #      social = [
 #        ["icon-twitter", "#"],
 #        ["icon-facebook", "#"],
 #        ["icon-dribbble", "#"]
 #      ]      
 
+
+    [[params.about.item]]
+      name = "Hosy Lee"
+      position = "Third Party Support Manager"
+      description = '개발자들의 수익을 위해 힘쓰고 있습니다. "부자가 되고 싶다면 주위 사람이 먼저 부자가 되게 도와라" - 마윈 알리바바 회장'
+      img = "hosy.jpg"
+      alt = "Hosy Lee"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]
+
     [[params.about.item]]
       name = "Wiley Choi"
       position = "Founder & CEO"
-      description = "메시지 발송 부분을 책임지고 있습니다."
+      description = "현재에 안주하지 않고 반복적인 개선을 통해 고객의 요구를 뛰어넘어 전에 없던 놀라운 메시징 플랫폼 서비스를 만들어 가겠습니다."
       img = "wiley.jpg"
       alt = "Wiley Choi"
 #      social = [
@@ -248,18 +261,6 @@ theme = "hugo-elate-theme"
 #        ["icon-dribbble", "#"]
 #      ]      
 #
-    [[params.about.item]]
-      name = "Youngjae Kim"
-      position = "Microservice Specialist"
-      description = "메시지 발송 부분을 지원하고 있습니다."
-      img = "person3.jpg"
-      alt = "Person3"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-dribbble", "#"]
-#      ]      
-
 
 
   # Counters section
