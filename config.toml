@@ -227,7 +227,7 @@ theme = "hugo-elate-theme"
     [[params.about.item]]
       name = "Genie Kim"
       position = "Messaging Team Developer"
-      description = '"이름처럼 되려고 노력하고 있습니다. Wiley와 함께 메세지 발송 부분을 지원하고 있습니다."'
+      description = "이름처럼 되려고 노력하고 있습니다. Wiley와 함께 메세지 발송 부분을 지원하고 있습니다."
       img = "genie.jpg"
       alt = "Genie Kim"
 #      social = [
