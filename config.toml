@@ -110,6 +110,18 @@ theme = "hugo-elate-theme"
       title = "특허 10-1648031"
       subtitle = ""
 
+    [[params.work.row]]
+      img = "rnd.jpg"
+      alt = "연구전담부서인증서"
+      title = "연구전담부서인증서"
+      subtitle = ""
+
+    [[params.work.row]]
+      img = "venture.jpg"
+      alt = "벤처기업확인서"
+      title = "벤처기업확인서"
+      subtitle = ""
+
  # Testimonials section
   [params.testimonials]
     enable = false
