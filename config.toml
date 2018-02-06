@@ -157,16 +157,16 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "수평적 리더쉽"
-      description = "회사 내에서 영어닉으로 호칭. 자율성을 갖고 업무를 스스로 계획하고 실천하는 상향식 업무프로세스. 분기별 동료평가에 기반한 성과평가를 실시하고 1년에 두 번의 연봉협상 실시. 10배의 성과자에게 10배의 연봉 지급을 원칙으로하는 공정한 분배시스템"
+      description = "회사 내에서 영어닉으로 호칭. 자율성을 갖고 업무를 스스로 계획하고 실천하는 상향식 업무프로세스. 동료평가에 기반한 성과평가를 실시. 10배의 성과자에게 10배의 연봉 지급을 원칙으로하는 공정한 분배시스템"
       icon = "icon-anchor"
 
     [[params.services.item]]
       title = "능동적 & 능률적 업무문화"
-      description = "근무시간 자율화로 개인의 능력에 맞게 스스로 스케쥴 관리(출퇴근 시간 자율) 부분적 재택근무 허용. 매일 스탠딩 회의로 방향을 점검하는 칸반 기반의 업무프로세스.  효율적인 코드 관리를 위해 github 및 bitbucket 기반의 이슈 및 코드관리 일일 코드리뷰, 일일 PR, Code Inspection, Test Driven Development 사용하는 등. Jenkins, Travis-CI 등 툴 사용으로 효율성 극대화"
+      description = "탄력근무제 주 40 시간 근무제로 아침8시 ~ 10시 사이 출근시간을 선택. 매일 스탠딩 회의로 방향을 점검하는 칸반 기반의 업무프로세스. TDD 준수, Github 의 Pull Request 기반의 코드 리뷰.  Travis-CI, Jenkins, Spinnaker 를 사용하여 CI/CD 의 자동화."
       icon = "icon-layers2"
     [[params.services.item]]
       title = "복지"
-      description = "휴가자율제 - 2017년부터 휴가 자율제 도입으로 언제든 필요할 때 유급휴가 사용. 장기 휴가시 3개월까지 무급휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>교육비 지원 - 업무와 관련된 교육비 지원<br>무한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
+      description = "연 15일 휴가제 및 3년 마다 15일 안식휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
       icon = "icon-shield"
 
       [[params.services.item]]
@@ -182,15 +182,15 @@ theme = "hugo-elate-theme"
 
     [[params.roadmap.item]]
       title = "업무환경"
-      description = "2016 .. 출퇴근시간 자율제 시행<br> 2018 .. 호텔 요리사 채용(호텔식 요리 제공)<br>2019 .. 스톡옵션 제공<br>2020 .. 누리고 어린이집 오픈"
+      description = "2020 .. 호텔 요리사 채용(호텔식 요리 제공)<br>2022 .. 누리고 어린이집 오픈<br>2024 .. 스톡옵션 제공<br>"
 
     [[params.roadmap.item]]
       title = "최저연봉"
-      description = "2016 .. 2,600만원<br>2017 .. 4,200만원<br>2018 ..  5,800만원<br>2019 .. 6,400만원<br>2022 .. 실리콘밸리 수준의 연봉"
+      description = "2019 .. 3,600만원<br>2021 .. 4,200만원<br>2023 ..  5,800만원<br>2025 .. 6,400만원<br>2027 .. 실리콘밸리 수준의 연봉"
 
     [[params.roadmap.item]]
       title = "글로벌 계획"
-      description = "2016 .. 대만(Taiwan) 서비스 런칭<br>2017 .. 대만을 비롯한 중국어권 서비스 본격화<br>2018 .. 영어권 국가로 확대<br>2019 .. 모든 서비스 및 제품을 글로벌을 목표로 제작"
+      description = "2019 .. 대만(Taiwan) 서비스 런칭<br>2021 .. 대만을 비롯한 중국어권 서비스 본격화<br>2023 .. 영어권 국가로 확대<br>2025 .. 모든 서비스 및 제품을 글로벌을 목표로 제작"
 
 
   # About section
@@ -248,6 +248,17 @@ theme = "hugo-elate-theme"
 #        ["icon-dribbble", "#"]
 #      ]      
 
+    [[params.about.item]]
+      name = "Henry Kim"
+      position = "Messaging Team Developer"
+      description = '"노력한 만큼 좋은 결과물이 만들어진다."'
+      img = "henry.jpg"
+      alt = "Henry Kim"
+#      social = [
+#        ["icon-twitter", "#"],
+#        ["icon-facebook", "#"],
+#        ["icon-dribbble", "#"]
+#      ]
 
     [[params.about.item]]
       name = "Hosy Lee"
