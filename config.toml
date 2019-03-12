@@ -214,63 +214,38 @@ theme = "hugo-elate-theme"
 
     [[params.about.item]]
       name = "Billy Kang"
-      position = "Security Manager"
+      position = "Front-End Senior Developer"
       description = '"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."'
       img = "billy.jpg"
       alt = "Billy Kang"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-linkedin", "#"]
-#      ]
 
     [[params.about.item]]
       name = "Eden Cha"
-      position = "Customer Service Manager"
+      position = "Front-End Senior Developer"
       description = '"Brainy is the new sexy"'
       img = "eden.jpg"
       alt = "Eden Cha"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-github", "#"]
-#      ]
 
     [[params.about.item]]
       name = "Genie Kim"
-      position = "Messaging Team Developer"
+      position = "Front-End Developer"
       description = "이름처럼 되려고 노력하고 있습니다. Wiley와 함께 메세지 발송 부분을 지원하고 있습니다."
       img = "genie.jpg"
       alt = "Genie Kim"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-dribbble", "#"]
-#      ]      
-
-    [[params.about.item]]
-      name = "Henry Kim"
-      position = "Messaging Team Developer"
-      description = '"노력한 만큼 좋은 결과물이 만들어진다."'
-      img = "henry.jpg"
-      alt = "Henry Kim"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-dribbble", "#"]
-#      ]
 
     [[params.about.item]]
       name = "Hosy Lee"
-      position = "Third Party Support Manager"
+      position = "Back-End Senior Developer"
       description = '개발자들의 수익을 위해 힘쓰고 있습니다. "부자가 되고 싶다면 주위 사람이 먼저 부자가 되게 도와라" - 마윈 알리바바 회장'
       img = "hosy.jpg"
       alt = "Hosy Lee"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-dribbble", "#"]
-#      ]
+
+    [[params.about.item]]
+      name = "Steven Jang"
+      position = "Back-End Developer"
+      description = '"노력의 척도는 결과다."'
+      img = "Steven.jpg"
+      alt = "Steven Jang"
 
     [[params.about.item]]
       name = "Wiley Choi"
@@ -278,13 +253,6 @@ theme = "hugo-elate-theme"
       description = "현재에 안주하지 않고 반복적인 개선을 통해 고객의 요구를 뛰어넘어 전에 없던 놀라운 메시징 플랫폼 서비스를 만들어 가겠습니다."
       img = "wiley.jpg"
       alt = "Wiley Choi"
-#      social = [
-#        ["icon-twitter", "#"],
-#        ["icon-facebook", "#"],
-#        ["icon-dribbble", "#"]
-#      ]      
-#
-
 
   # Counters section
   [params.counters]
