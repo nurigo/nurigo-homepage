@@ -49,8 +49,8 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "쉬운 발송"
-    description = "쿨에스엠에스 플랫폼을 기반으로 하는 150 여개의 응용프로그램 및 서비스 중에서 나에게 맞는 솔루션을 찾아보세요."
-    url = "https://www.coolsms.co.kr/app_list"
+    description = "쿨에스엠에스 플랫폼을 기반으로 하는 응용프로그램 및 서비스 중에서 나에게 맞는 솔루션을 찾아보세요."
+    url = "https://www.coolsms.co.kr/apps"
     button = "Find Apps"
     icon = "icon-rocket"
     img = "img_7.jpg"
@@ -157,21 +157,22 @@ theme = "hugo-elate-theme"
 
     [[params.services.item]]
       title = "수평적 리더쉽"
-      description = "회사 내에서 영어닉으로 호칭. 자율성을 갖고 업무를 스스로 계획하고 실천하는 상향식 업무프로세스. 동료평가에 기반한 성과평가를 실시. 10배의 성과자에게 10배의 연봉 지급을 원칙으로하는 공정한 분배시스템"
+      description = "회사 내에서 영어닉으로 호칭. 자율성을 갖고 업무를 스스로 계획하고 실천하는 상향식 업무프로세스. 10배의 성과자에게 10배의 연봉 지급을 원칙으로하는 공정한 분배시스템"
       icon = "icon-anchor"
 
     [[params.services.item]]
       title = "능동적 & 능률적 업무문화"
       description = "탄력근무제 주 40 시간 근무제로 아침8시 ~ 10시 사이 출근시간을 선택. 매일 스탠딩 회의로 방향을 점검하는 칸반 기반의 업무프로세스. TDD 준수, Github 의 Pull Request 기반의 코드 리뷰.  Travis-CI, Jenkins, Spinnaker 를 사용하여 CI/CD 의 자동화."
       icon = "icon-layers2"
+
     [[params.services.item]]
       title = "복지"
-      description = "연 15일 휴가제 및 3년 마다 15일 안식휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
+      description = "연 15일 휴가제 및 3년 마다 15일 안식휴가<br>도서구매 지원 - 매월 한 권의 도서구입비 지원<br>무한 간식 제공 - 끝없이 채워지는 간식<br>레포츠 데이 - 두 달에 한번 금요일에 떠나는 에너지 충전 여행" 
       icon = "icon-shield"
 
       [[params.services.item]]
       title = "채용"
-      description = "AWS Service 를 기반으로 한 NodeJS 개발 가능자 항시 채용중. 인재 추천 후 채용시 200만원 지급."      
+      description = "NodeJS 개발 및 서비스 운영 전문가 항시 채용중. 인재 추천 후 채용시 200만원 지급."      
       icon = "icon-user"
 
   # Loadmap section
@@ -185,12 +186,12 @@ theme = "hugo-elate-theme"
       description = "2020 .. 호텔 요리사 채용(호텔식 요리 제공)<br>2022 .. 누리고 어린이집 오픈<br>2024 .. 스톡옵션 제공<br>"
 
     [[params.roadmap.item]]
-      title = "최저연봉"
-      description = "2019 .. 3,600만원<br>2021 .. 4,200만원<br>2023 ..  5,800만원<br>2025 .. 6,400만원<br>2027 .. 실리콘밸리 수준의 연봉"
+      title = "평균연봉"
+      description = "2020 .. 4,000만원<br>2021 .. 4,600만원<br>2022 ..  5,200만원<br>2025 .. 6,400만원<br>2030 .. 실리콘밸리 수준의 연봉"
 
     [[params.roadmap.item]]
       title = "글로벌 계획"
-      description = "2019 .. 대만(Taiwan) 서비스 런칭<br>2021 .. 대만을 비롯한 중국어권 서비스 본격화<br>2023 .. 영어권 국가로 확대<br>2025 .. 모든 서비스 및 제품을 글로벌을 목표로 제작"
+      description = "2020 .. 대만(Taiwan) 서비스 런칭<br>2022 .. 대만을 비롯한 중국어권 서비스 본격화<br>2024 .. 영어권 국가로 확대<br>2026 .. 모든 서비스 및 제품을 글로벌 기준에 맞춤"
 
 
   # About section
@@ -213,25 +214,11 @@ theme = "hugo-elate-theme"
 
 
     [[params.about.item]]
-      name = "Billy Kang"
-      position = "Front-End Senior Developer"
-      description = '"Give me six hours to chop down a tree and I will spend the first four sharpening the axe."'
-      img = "billy.jpg"
-      alt = "Billy Kang"
-
-    [[params.about.item]]
       name = "Eden Cha"
       position = "Front-End Senior Developer"
       description = '"Brainy is the new sexy"'
       img = "eden.jpg"
       alt = "Eden Cha"
-
-    [[params.about.item]]
-      name = "Genie Kim"
-      position = "Front-End Developer"
-      description = "이름처럼 되려고 노력하고 있습니다. Wiley와 함께 메세지 발송 부분을 지원하고 있습니다."
-      img = "genie.jpg"
-      alt = "Genie Kim"
 
     [[params.about.item]]
       name = "Hosy Lee"
